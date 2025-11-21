@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel J. Stevens | Software Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+        <div class="logo">
+            <span class="logo-mark">&lt;DJ /&gt;</span>
+            <span class="logo-text">Daniel Stevens</span>
+        </div>
+        <nav class="site-nav">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="eyebrow">Software Engineer · AI · Systems · Automation</p>
+                <h1>Hi, I’m <span class="accent-text">Daniel J. Stevens</span>.</h1>
+                <p class="hero-subtitle">
+                    I build practical software systems that automate tedious work, connect to real data,
+                    and stay reliable in production — from compilers and AI projects to enterprise tools and cloud apps.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    <a href="assets/Daniel_Stevens_Resume.pdf" class="btn ghost-btn" target="_blank">
+                        Download Résumé
+                    </a>
+                </div>
+            </div>
+            <div class="hero-panel">
+                <div class="hero-card">
+                    <p class="hero-card-title">Currently</p>
+                    <p class="hero-card-body">
+                        Working on automation, AI, and finance-related tools — focusing on reliability,
+                        data pipelines, and developer experience.
+                    </p>
+                </div>
+                <div class="hero-card stack-card">
+                    <p class="hero-card-title">Tech Snapshot</p>
+                    <ul>
+                        <li>Java · Kotlin · Python · JavaScript/TypeScript</li>
+                        <li>JavaFX · Jetpack Compose · React</li>
+                        <li>Firebase · Firestore · SQL · APIs</li>
+                        <li>AI · ML · Compilers · Networking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hero-glow hero-glow-green"></div>
+        <div class="hero-glow hero-glow-purple"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container two-column">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    I’m a software engineer with a background in computer science, focusing on
+                    systems, AI, networking, and automation. I like taking messy, manual processes
+                    and turning them into tools that are faster, safer, and easier for people to use.
+                </p>
+                <p>
+                    My work ranges from building interfaces around Department of Defense label software,
+                    to stock portfolio tracking applications, to tools for document and revision checking
+                    with OCR and Excel automation.
+                </p>
+                <p>
+                    I care about writing code that’s understandable, testable, and maintainable — and
+                    I like to see it deployed in environments where it actually matters.
+                </p>
+            </div>
+            <div class="about-highlight">
+                <h3>Quick Facts</h3>
+                <ul>
+                    <li>🎓 B.S. in Computer Science (GPA ~3.9 in CS coursework)</li>
+                    <li>🏢 Experience with DoD software, automation, and data tools</li>
+                    <li>📦 Built full-stack apps using Java, Kotlin, Python, and JS</li>
+                    <li>⚙️ Comfortable with Git, CI, cloud services, and APIs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2>Highlighted Projects</h2>
+            <p class="section-intro">
+                A selection of projects that show how I approach automation, systems, and user-facing tools.
+            </p>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-tag">Automation · DoD</div>
+                    <h3>Curtiss-Wright DoD Label Automation Tool</h3>
+                    <p>
+                        Desktop application that integrates with Department of Defense label software to
+                        automate label generation. It merges DoD documents with internal forms and
+                        produces ready-to-print labels, eliminating manual re-entry and reducing errors.
+                    </p>
+                    <ul class="project-meta">
+                        <li>Java · DoD integration · File I/O</li>
+                        <li>Process automation · Desktop UI</li>
+                    </ul>
+                    <div class="project-links">
+                        <!-- Replace with actual links when ready -->
+                        <a href="#" class="text-link disabled">Code (private)</a>
+                        <a href="#" class="text-link disabled">Screenshots coming soon</a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-tag">Finance · Cloud</div>
+                    <h3>Stock Portfolio Tracker</h3>
+                    <p>
+                        JavaFX application that tracks stock buys and sells, integrates with real-time
+                        market data APIs, and stores portfolio data in Firebase/Firestore. Calculates
+                        realized/unrealized gains, portfolio weights, and historical performance.
+                    </p>
+                    <ul class="project-meta">
+                        <li>Java · JavaFX</li>
+                        <li>Firebase · REST APIs</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="text-link">GitHub (placeholder)</a>
+                        <a href="#" class="text-link disabled">UI screenshots coming soon</a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-tag">Python · OCR</div>
+                    <h3>Document & Revision Checker</h3>
+                    <p>
+                        Python + GUI tool that reads Excel/CSV training records, detects document and
+                        revision columns, and checks them against PDFs in network folders using flexible,
+                        case-insensitive pattern matching. Produces a detailed log and GUI report of
+                        matches, mismatches, and missing documents.
+                    </p>
+                    <ul class="project-meta">
+                        <li>Python · Pandas · Tkinter</li>
+                        <li>OCR · File system automation</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="text-link">GitHub (placeholder)</a>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-tag">Android · Room · DataStore</div>
+                    <h3>Android Training & Restaurant Apps</h3>
+                    <p>
+                        Multiple Android apps built with Jetpack Compose, Room, and DataStore: including
+                        worker/restaurant tracking, ratings, and reporting. Emphasis on clean architecture,
+                        view models, repositories, and coroutine-based data access.
+                    </p>
+                    <ul class="project-meta">
+                        <li>Kotlin · Jetpack Compose</li>
+                        <li>Room · DataStore · MVVM</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="text-link">GitHub (placeholder)</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="skill-chips">
+                        <span>Java</span>
+                        <span>Kotlin</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>SQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-chips">
+                        <span>JavaFX</span>
+                        <span>Jetpack Compose</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Firebase / Firestore</span>
+                        <span>Room</span>
+                        <span>Smartsheet</span>
+                        <span>Git · GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Domains</h3>
+                    <div class="skill-chips">
+                        <span>Automation</span>
+                        <span>AI / ML</span>
+                        <span>Compilers</span>
+                        <span>Networking</span>
+                        <span>Finance tools</span>
+                        <span>Desktop apps</span>
+                        <span>Android apps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE / EDUCATION -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2>Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-label">Professional Experience</p>
+                        <h3>Software Engineer / Developer</h3>
+                        <p>
+                            Experience working with DoD-related software, automation tools, and internal
+                            engineering applications. Focus on building reliable workflows, integrating
+                            with existing systems, and streamlining manual processes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-label">Education</p>
+                        <h3>B.S. in Computer Science</h3>
+                        <p>
+                            Strong academic focus on algorithms, data structures, operating systems,
+                            networking, AI, and compiler construction. Recent CS coursework GPA ~3.9.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-label">Selected Academic Projects</p>
+                        <h3>Compilers · AI · Networking</h3>
+                        <p>
+                            Built a recursive descent compiler with an AST and code generation, implemented
+                            ML models (decision trees, pruning, neural networks), and analyzed transport
+                            protocols and congestion control using Wireshark and custom network setups.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p class="section-intro">
+                If you’d like to talk about roles, projects, or collaboration, feel free to reach out.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Contact</h3>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> <a href="mailto:stevens.j.daniel@gmail.com">stevens.j.daniel@gmail.com</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/your-github-username" target="_blank">github.com/your-github-username</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="#" target="_blank">LinkedIn (add link)</a></li>
+                    </ul>
+                </div>
+                <div class="contact-card">
+                    <h3>What I’m Looking For</h3>
+                    <p>
+                        Roles where I can own real systems, work close to the code, and build things that
+                        actually get used — especially in automation, infrastructure, tooling, AI, or
+                        finance-heavy environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© <span id="year"></span> Daniel J. Stevens. All rights reserved.</p>
+        <p class="footer-subtext">Built with HTML, CSS, and a bit of JavaScript. Hosted on GitHub Pages.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
